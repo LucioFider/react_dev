@@ -2,6 +2,7 @@ import "./App.css";
 import Button from "./components/Button";
 import RenderingLists from "./components/RenderingLists";
 import RespondingToEvents from "./components/RespondingToEvents";
+import UpdatingTheScreen from "./components/UpdatingTheScreen";
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
       <Button />
       <RenderingLists />
       <RespondingToEvents />
+      <UpdatingTheScreen />
+      <UpdatingTheScreen />
     </div>
   );
 }
